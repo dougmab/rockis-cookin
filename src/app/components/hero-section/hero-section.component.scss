@@ -1,0 +1,49 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-image: url("/assets/ingredients_bg.jpg");
+  background-size: cover;
+  // background-position: center center;
+  // filter: blur(10px) contrast(1.1);
+
+  .hero-section__content {
+    color: #fff;
+    z-index: 5px;
+    background-color: #0000007a;
+    padding: 5vw 50px;
+    text-align: center;
+    max-width: 95%;
+    border-radius: 5px;
+
+    h1 {
+      font-family: "Caveat", cursive;
+      font-size: 4rem;
+      border-top: 5px solid #fff;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .hero-section .hero-section__content {
+    h1 {
+      font-size: 8rem;
+    }
+
+    p {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .hero-section .hero-section__content h1 {
+    font-size: 14rem;
+  }
+}

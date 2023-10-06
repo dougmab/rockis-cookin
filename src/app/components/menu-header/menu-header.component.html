@@ -1,0 +1,12 @@
+<header class="menu">
+  <div class="menu__logo">
+    <img src="assets/fork_and_knife.svg" alt="Logo" />
+  </div>
+  <div class="menu__links">
+    <ul>
+      <li *ngFor="let link of links">
+        <a href="{{ link[1] }}">{{ link[0] }}</a>
+      </li>
+    </ul>
+  </div>
+</header>

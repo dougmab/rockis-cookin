@@ -1,5 +1,3 @@
-$altura: 250px;
-
 .little-card {
   height: 100%;
   background-color: var(--background-color);
@@ -19,6 +17,9 @@ $altura: 250px;
   .little-card__info {
     padding: 10px;
     color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 50%;
 
     h2 {
       font-size: 3rem;

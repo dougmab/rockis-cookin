@@ -17,21 +17,23 @@
     height: 100%;
     display: grid;
     align-items: stretch;
+    grid-template-rows: 500px repeat(2, 250px);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-template-areas:
+    "trend trend"
+      "a b"
+      "c d";
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .article-section .article-section__cards {
     grid-template-rows: repeat(2, 250px);
     grid-template-columns: repeat(2, 1fr) 2fr;
     gap: 5px;
     grid-template-areas:
-      "a b trend"
-      "c d trend";
-
-    .article-section__trending-card {
-      position: relative;
-      grid-area: trend;
-
-    }
-
-    // & > div {
-    //   flex: 1;
-    // }
+    "a b trend"
+    "c d trend";
   }
 }

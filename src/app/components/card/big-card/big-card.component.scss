@@ -1,5 +1,3 @@
-$altura: 500px;
-
 .big-card {
   margin: 0 auto;
   max-width: 100%;
@@ -20,6 +18,9 @@ $altura: 500px;
   .big-card__info {
     padding: 10px;
     color: var(--background-color);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 50%;
 
     h2 {
       font-size: 3rem;
@@ -28,8 +29,7 @@ $altura: 500px;
 
     p {
       text-align: justify;
-      font-size: 1.6rem;
+      font-size: 2rem;
     }
-
   }
 }

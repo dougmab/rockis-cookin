@@ -1,0 +1,43 @@
+footer {
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+
+    .links__social-media {
+      display: flex;
+      align-items: flex-end;
+      li {
+        margin: 0 5px;
+        img {
+          width: 20px;
+        }
+      }
+    }
+
+    .links__repo {
+      display: flex;
+      align-items: center;
+      padding: 2px;
+      margin: 4px;
+      border-radius: 5px;
+      background-color: #202020;
+      font-size: 1.6rem;
+      color: #fff;
+      img {
+        width: 20px;
+        filter: brightness(0) invert(1) grayscale(100%);
+        margin-right: 5px;
+      }
+    }
+  }
+
+  p {
+    padding-top: 5px;
+    border-top: 1px solid #000;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+}

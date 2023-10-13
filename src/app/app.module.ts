@@ -8,6 +8,7 @@ import { MenuHeaderComponent } from './components/menu-header/menu-header.compon
 import { HeroSectionComponent } from './components/hero-section/hero-section.component';
 import { ArticleSectionComponent } from './components/article-section/article-section.component';
 import { NewsletterSectionComponent } from './components/newsletter-section/newsletter-section.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { NewsletterSectionComponent } from './components/newsletter-section/news
     HeroSectionComponent,
     ArticleSectionComponent,
     NewsletterSectionComponent,
+    FooterComponent,
 
   ],
   imports: [

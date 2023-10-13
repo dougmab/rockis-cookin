@@ -10,10 +10,8 @@
   }
 
   .article-section__cards {
-    // display: flex;
-    // justify-content: space-evenly;
-    // flex-grow: 2;
-    // align-items: center;
+    max-width: 1700px;
+    margin: 0 auto;
     height: 100%;
     display: grid;
     align-items: stretch;

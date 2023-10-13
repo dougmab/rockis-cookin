@@ -1,0 +1,16 @@
+<section class="newsletter-section content-section">
+  <div class="newsletter-section__display">
+    <h2>Inscreva-se e não perca as nossas delícias!</h2>
+    <form (submit)="onSubmit($event)" action="POST">
+      <label for="name">
+        Nome:
+        <input type="text" id="name" />
+      </label>
+      <label for="email">
+        Email:
+        <input type="email" id="email" />
+      </label>
+      <button>Enviar</button>
+    </form>
+  </div>
+</section>

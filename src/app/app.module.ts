@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { MenuHeaderComponent } from './components/menu-header/menu-header.component';
 import { HeroSectionComponent } from './components/hero-section/hero-section.component';
 import { ArticleSectionComponent } from './components/article-section/article-section.component';
+import { NewsletterSectionComponent } from './components/newsletter-section/newsletter-section.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { ArticleSectionComponent } from './components/article-section/article-se
     MenuHeaderComponent,
     HeroSectionComponent,
     ArticleSectionComponent,
+    NewsletterSectionComponent,
 
   ],
   imports: [

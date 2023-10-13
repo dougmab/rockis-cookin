@@ -1,8 +1,8 @@
 <section class="little-card">
-  <div class="little-card__img-div" [style.background-image]="'url(assets/salad_bg.jpg)'"></div>
+  <div class="little-card__img-div" [style.background-image]="getImageSrc()"></div>
   <div class="little-card__info">
     <h2>
-      Lorem, ipsum dolor.
+      {{ content.title }}
     </h2>
   </div>
 </section>
